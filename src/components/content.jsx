@@ -1,5 +1,4 @@
 import { useSelector } from "react-redux"
-import { AboutMe } from "./aboutMe"
 
 export const Content = () => {
     const menuStatus = useSelector(state=>state.menu.menuStatus)
@@ -14,7 +13,6 @@ export const Content = () => {
             <p><button className="px-6 py-4 text-sm md:text-xl font-extrabold text-gray-600 bg-gray-200">View Works</button></p>
             </div>  
         </div>
-        <AboutMe />
     </div>
     </>
   )
