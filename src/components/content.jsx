@@ -6,7 +6,7 @@ export const Content = () => {
     <>
     <div>
         <div className={` ${menuStatus ? 'md:mt-0 mt-[220px]' : 'mt-0'} h-screen container mx-auto p-8 bg-gradient-to-t from-blue-200  via-purple-200 to-pink-200`}>
-            <div className="grid gap-9 justify-center">
+            <div className="grid gap-9 justify-center lg:pt-[200px] pt-[80px]">
             <p className="text-left font-extrabold text-3xl md:text-6xl text-gray-600"> HI ! </p>
             <p className="text-center font-extrabold text-2xl md:text-5xl text-gray-600"> I am Mainkandan S</p>
             <p className="text-center font-extralight text-2xl md:text-5xl text-gray-600"> Full Stack Developer</p>
