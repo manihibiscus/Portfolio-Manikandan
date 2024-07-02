@@ -5,13 +5,13 @@ export const Content = () => {
   return (
     <>
     <div>
-        <div className={` ${menuStatus ? 'md:mt-0 mt-[220px]' : 'mt-0'} h-screen container mx-auto p-8 bg-gradient-to-t from-blue-200  via-purple-200 to-pink-200`}>
+        <div className={` ${menuStatus ? 'md:mt-0 mt-[220px]' : 'mt-0'} h-screen container mx-auto p-8 bg-gradient-to-t from-[#66b2b2] via-[#b2d8d8] to-[#d7e9f2]`}>
             <div className="grid gap-9 justify-center lg:pt-[200px] pt-[80px]">
             <p className="text-left font-extrabold text-3xl md:text-6xl text-gray-600"> HI ! </p>
             <p className="text-center font-extrabold text-2xl md:text-5xl text-gray-600"> I am Mainkandan S</p>
             <p className="text-center font-extralight text-2xl md:text-5xl text-gray-600"> Full Stack Developer</p>
             <p><button className="px-6 py-4 text-sm md:text-xl font-extrabold text-gray-600 bg-gray-200">View Works</button></p>
-            </div>  
+            </div>
         </div>
     </div>
     </>
