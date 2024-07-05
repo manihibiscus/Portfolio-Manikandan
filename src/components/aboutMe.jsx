@@ -1,7 +1,7 @@
 export const AboutMe = () => {
   return (
     <>
-      <div className="container mx-auto p-8 bg-[#b2d8d8] shadow-lg rounded-lg mt-8  max-w-7xl ">
+      <div className="container mx-auto p-8 bg-[#b2d8d8] shadow-lg rounded-lg mt-8 h-screen max-w-7xl ">
       <h2 className="text-2xl md:text-4xl font-bold text-gray-800 mb-6 text-center lg:mt-[75px]">About Me</h2>
       <div className="flex flex-col md:flex-row items-center md:items-start">
         <div className="md:w-1/3">
